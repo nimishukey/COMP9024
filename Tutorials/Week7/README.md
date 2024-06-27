@@ -413,6 +413,8 @@ struct Graph{
     long n;
     // whether it is a directed graph
     int isDirected;
+    // Added for Dijkstra
+    AdjMatrixElementTy *distances;    
 };
 
 // 0 <= u < n,  0 <= v < n
